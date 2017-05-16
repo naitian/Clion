@@ -6,7 +6,7 @@ from json import loads, dumps
 import click
 import requests
 
-from utils import get_auth_path, BASE_URL
+from .utils import get_auth_path, BASE_URL
 
 
 CLIENT_ID = "jsPriMNQKrcxx2dzQjDrwgOr35PgTgOpXiHXGCjC"

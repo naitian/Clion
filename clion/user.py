@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from utils import get, DictDotLookup
+from .utils import get, DictDotLookup
 
 
 def get_user_info(auth, uid=None):

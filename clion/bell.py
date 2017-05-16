@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from utils import get
+from .utils import get
 
 
 def get_bell_schedule(date):

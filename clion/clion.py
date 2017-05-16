@@ -8,11 +8,11 @@ from datetime import datetime
 import click
 from colorama import init, Fore, Back, Style
 
-from auth import auth, login_required, unauth
-from bell import get_bell_schedule
-from eighth import get_block_list, get_sched_activities, post_signup
-from user import get_user_info
-from utils import success, error, bold, color
+from .auth import auth, login_required, unauth
+from .bell import get_bell_schedule
+from .eighth import get_block_list, get_sched_activities, post_signup
+from .user import get_user_info
+from .utils import success, error, bold, color
 
 init()
 WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
